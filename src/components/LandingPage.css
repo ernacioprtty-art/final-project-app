@@ -1,0 +1,82 @@
+.background {
+    background-image: url("../assets/business-conference.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    filter: blur(15px);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.blur-filter {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(15px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 27em;
+    max-width: 1200px;
+}
+
+.container-landing,
+.container-description {
+    max-width: 55%;
+    margin: 10px;
+}
+
+.container-landing h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.container-landing p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+button {
+    background-color: #f4c430;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e0b028;
+}
+
+.container-description h3 {
+    font-size: 1.1em;
+    word-spacing: 3px;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+h3 {
+    word-spacing: 5px;
+    line-height: 1.5;
+}
